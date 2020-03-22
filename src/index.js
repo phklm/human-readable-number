@@ -44,7 +44,7 @@ if (number > 20 && number < 100 && number.toString()[1] == "0") return thirdNum[
 if (number > 20 && number < 100 && number.toString()[1] != "0") return thirdNum[number.toString()[0]] + " " + firstNum[number.toString()[1]];
 if (number > 99 && number < 1000 && number.toString()[1] == "0" && number.toString()[2] == "0") return firstNum[number.toString()[0]] + " hundred";
 if (number > 99 && number < 1000 && number.toString()[1] == "0") return firstNum[number.toString()[0]] + " hundred " + firstNum[number.toString()[2]];
-if (number > 99 && number < 1000 && number.toString()[1] == "1" && number.toString()[2] == 0) return firstNum[number.toString()[0]] + " hundred " + thirdNum[1];
+if (number > 99 && number < 1000 && number.toString()[1] == "1" && number.toString()[2] == "0") return firstNum[number.toString()[0]] + " hundred " + thirdNum[1];
 if (number > 99 && number < 1000 && number.toString()[1] == "1") return firstNum[number.toString()[0]] + " hundred " + secondNum[number.toString()[2]];
 if (number > 99 && number < 1000 && number.toString()[2] == "0") return firstNum[number.toString()[0]] + " hundred " + thirdNum[number.toString()[1]];
 else return firstNum[number.toString()[0]] + " hundred " + thirdNum[number.toString()[1]] + " " + firstNum[number.toString()[2]];
